@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tg-app-fc/static/css/main.b75dfc96.css",
+    "main.js": "/tg-app-fc/static/js/main.767a8d70.js",
+    "index.html": "/tg-app-fc/index.html",
+    "main.b75dfc96.css.map": "/tg-app-fc/static/css/main.b75dfc96.css.map",
+    "main.767a8d70.js.map": "/tg-app-fc/static/js/main.767a8d70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b75dfc96.css",
+    "static/js/main.767a8d70.js"
+  ]
+}
