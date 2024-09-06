@@ -20,6 +20,16 @@
 	box-sizing: border-box;
 }
 
+.calendar__box_cup {
+	background-color: #fdeded; /* Белый фон для блока */
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 360px; /* Максимальная ширина для мобильных экранов */
+	padding: 15px;
+	box-sizing: border-box;
+}
+
 /* Элемент календаря */
 .calendar__item {
 	display: grid;
@@ -63,6 +73,23 @@
 
 /* Зрители */
 .calendar__spectators {
+	text-align: center;
+	font-size: 14px;
+	color: #b2061c; /* Цвет для текстов типа "зрители", в стиле FC Akron */
+}
+
+.calendar__ticket {
+	background-color: rgb(178, 6, 28, 0.1);
+	width: 100%;
+	height: auto;
+}
+
+.calendar__ticket a {
+	width: 100%;
+	display: block;
+	padding: 8px 0;
+	text-transform: uppercase;
+	text-decoration: none;
 	text-align: center;
 	font-size: 14px;
 	color: #b2061c; /* Цвет для текстов типа "зрители", в стиле FC Akron */
