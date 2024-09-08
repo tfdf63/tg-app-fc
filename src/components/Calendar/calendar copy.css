@@ -4,17 +4,16 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 24px;
+	gap: 12px;
 	padding: 12px;
 	box-sizing: border-box;
 }
 
 /* Контейнер для элементов календаря */
 .calendar__box {
-	background-color: #070e13; /* Белый фон для блока */
-	border: 0.1px solid rgb(255, 255, 255, 0.5);
-	/* border-radius: 10px; */
-	/* box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); */
+	background-color: #ffffff; /* Белый фон для блока */
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 	width: 100%;
 	max-width: 360px; /* Максимальная ширина для мобильных экранов */
 	padding: 15px;
@@ -22,10 +21,9 @@
 }
 
 .calendar__box_cup {
-	background-color: #1d0b0b; /* Белый фон для блока */
-	border: 0.1px solid rgb(255, 255, 255, 0.5);
-	/* border-radius: 10px; */
-	/* box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); */
+	background-color: #fdeded; /* Белый фон для блока */
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 	width: 100%;
 	max-width: 360px; /* Максимальная ширина для мобильных экранов */
 	padding: 15px;
@@ -39,14 +37,14 @@
 	align-items: center;
 	margin-bottom: 10px;
 	font-family: Arial, sans-serif;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 /* Команды */
 .calendar__team_h,
 .calendar__team_g {
 	text-align: center;
-	color: rgb(255, 255, 255, 0.9);
+	color: #000000; /* Основной текстовый цвет */
 }
 
 /* Разделитель */
@@ -63,7 +61,7 @@
 	gap: 12px;
 	margin-bottom: 12px;
 	font-size: 14px;
-	color: rgb(255, 255, 255, 0.9); /* Цвет подзаголовка */
+	color: #555555; /* Цвет подзаголовка */
 }
 
 /* Лига, тур, дата */
@@ -81,7 +79,7 @@
 }
 
 .calendar__ticket {
-	background-color: #b2061c;
+	background-color: rgb(178, 6, 28, 0.1);
 	width: 100%;
 	height: auto;
 }
@@ -90,9 +88,9 @@
 	width: 100%;
 	display: block;
 	padding: 8px 0;
-	/* text-transform: uppercase; */
+	text-transform: uppercase;
 	text-decoration: none;
 	text-align: center;
 	font-size: 14px;
-	color: #fff; /* Цвет для текстов типа "зрители", в стиле FC Akron */
+	color: #b2061c; /* Цвет для текстов типа "зрители", в стиле FC Akron */
 }

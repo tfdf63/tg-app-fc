@@ -45,6 +45,13 @@ const Calendar = () => {
 							match.liga === 'РПЛ' ? 'calendar__box' : 'calendar__box_cup'
 						}
 					>
+						<div className='calendar__item'>
+							<div className='calendar__team_h'>{match.team_h}</div>
+							<div className='calendar__delimiter'>
+								{match.score_h}:{match.score_g}
+							</div>
+							<div className='calendar__team_g'>{match.team_g}</div>
+						</div>
 						<div className='calendar__subitem'>
 							<div className='calendar__liga'>{match.liga}</div>
 							<div className='calendar__tour'>{match.tour} тур</div>{' '}
@@ -53,13 +60,6 @@ const Calendar = () => {
 							<div className='calendar__spectators'>
 								{match.spectators !== '' ? `${match.spectators} fans` : ''}
 							</div>
-						</div>
-						<div className='calendar__item'>
-							<div className='calendar__team_h'>{match.team_h}</div>
-							<div className='calendar__delimiter'>
-								{match.score_h}:{match.score_g}
-							</div>
-							<div className='calendar__team_g'>{match.team_g}</div>
 						</div>
 						<div className='calendar__ticket'>
 							{match.ticket !== '' ? (
