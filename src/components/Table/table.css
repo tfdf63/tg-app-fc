@@ -1,0 +1,36 @@
+h2 {
+	font-size: 1.2rem;
+	margin-bottom: 12px;
+}
+.table {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	padding: 12px;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255, 0.9);
+	padding-bottom: 88px;
+}
+
+.table__box {
+	width: 100%;
+	max-width: 360px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	padding: 15px;
+	box-sizing: border-box;
+	border: 0.1px solid rgb(255, 255, 255, 0.5);
+}
+
+.table__item {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr 1fr 1fr 2fr;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
