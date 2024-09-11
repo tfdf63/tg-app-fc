@@ -1,7 +1,6 @@
 import './table.css'
 import '../../assets/tableRPL.js'
 import { useEffect, useState } from 'react'
-import tablecup from '../../assets/tableCUP.js'
 
 const Table = () => {
 	const [tablerpl, setTablerpl] = useState([])

@@ -1,6 +1,6 @@
 h2 {
 	width: 100%;
-	font-size: 1.2rem;
+	font-size: 16px;
 	margin-bottom: 2px;
 	/* color: #b2061c; */
 	background-color: #b2061c;
@@ -39,8 +39,8 @@ h2 {
 	align-items: center;
 	grid-template-columns: 1fr 5fr 1fr 1fr 1fr 2fr;
 	font-family: Arial, sans-serif;
-	font-size: 16px;
-	padding-bottom: 8px;
+	font-size: 14px;
+	padding-bottom: 4px;
 	border-bottom: 0.1px solid rgb(255, 255, 255, 0.4);
 }
 
@@ -51,10 +51,10 @@ h2 {
 	align-items: center;
 	grid-template-columns: 1fr 5fr 1fr 1fr 1fr 2fr;
 	font-family: Arial, sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	/* color: #b2061c; */
 	background-color: #b2061c;
-	padding: 8px 0;
+	padding: 4px 0;
 	border-bottom: 0.1px solid rgb(255, 255, 255, 0.4);
 }
 
@@ -71,8 +71,8 @@ h2 {
 	align-items: center;
 	grid-template-columns: 1fr 5fr 1fr 1fr 1fr 1fr 2fr;
 	font-family: Arial, sans-serif;
-	font-size: 16px;
-	padding-bottom: 8px;
+	font-size: 14px;
+	padding-bottom: 4px;
 	border-bottom: 0.1px solid rgb(255, 255, 255, 0.4);
 }
 
@@ -83,10 +83,10 @@ h2 {
 	align-items: center;
 	grid-template-columns: 1fr 5fr 1fr 1fr 1fr 1fr 2fr;
 	font-family: Arial, sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	/* color: #b2061c; */
 	background-color: #b2061c;
-	padding: 8px 0;
+	padding: 4px 0;
 	border-bottom: 0.1px solid rgb(255, 255, 255, 0.4);
 }
 
