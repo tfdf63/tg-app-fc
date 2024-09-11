@@ -4,10 +4,10 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 24px;
+	gap: 12px;
 	padding: 12px;
 	box-sizing: border-box;
-	padding-bottom: 64px;
+	padding-bottom: 88px;
 }
 
 /* Контейнер для элементов календаря */

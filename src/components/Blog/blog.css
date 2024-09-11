@@ -1,0 +1,20 @@
+.blog {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+	padding: 12px;
+	box-sizing: border-box;
+	padding-bottom: 64px;
+}
+
+.blog__box {
+	background-color: #070e13; /* Белый фон для блока */
+	border: 0.1px solid rgb(255, 255, 255, 0.5);
+	width: 100%;
+	max-width: 360px; /* Максимальная ширина для мобильных экранов */
+	padding: 15px;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255, 0.9);
+}
