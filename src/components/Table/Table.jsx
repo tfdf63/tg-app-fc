@@ -64,9 +64,11 @@ const Table = () => {
 				<div className='table__item'>
 					<div className='table__place'>#</div>
 					<div className='table__team'>Команда</div>
+					<div className='table__win'>И</div>
 					<div className='table__win'>В</div>
 					<div className='table__draw'>Н</div>
 					<div className='table__lose'>П</div>
+					<div className='table__lose'>Р-М</div>
 					<div className='table__points'>О</div>
 				</div>
 				<div></div>
@@ -79,9 +81,11 @@ const Table = () => {
 					>
 						<div className='table__place'>{item.id}</div>
 						<div className='table__team'>{item.team}</div>
+						<div className='table__win_cup'>{item.game}</div>
 						<div className='table__win'>{item.win}</div>
 						<div className='table__draw'>{item.draw}</div>
 						<div className='table__lose'>{item.lose}</div>
+						<div className='table__lose'>{item.difference}</div>
 						<div className='table__points'>{item.points}</div>
 					</div>
 				))}
@@ -91,10 +95,12 @@ const Table = () => {
 				<div className='table__item_cup'>
 					<div className='table__place_cup'>#</div>
 					<div className='table__team_cup'>Команда</div>
+					<div className='table__win_cup'>И</div>
 					<div className='table__win_cup'>В</div>
 					<div className='table__win_cup'>ВП</div>
 					<div className='table__draw_cup'>П</div>
 					<div className='table__draw_cup'>ПП</div>
+					<div className='table__draw_cup'>Р-М</div>
 					<div className='table__points_cup'>О</div>
 				</div>
 				<div></div>
@@ -107,10 +113,12 @@ const Table = () => {
 					>
 						<div className='table__place_cup'>{item.id}</div>
 						<div className='table__team_cup'>{item.team}</div>
+						<div className='table__win_cup'>{item.game}</div>
 						<div className='table__win_cup'>{item.win}</div>
 						<div className='table__win_cup'>{item.winw}</div>
 						<div className='table__draw_cup'>{item.draw}</div>
 						<div className='table__draw_cup'>{item.drawd}</div>
+						<div className='table__draw_cup'>{item.difference}</div>
 						<div className='table__points_cup'>{item.points}</div>
 					</div>
 				))}
