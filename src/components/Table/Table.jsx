@@ -1,5 +1,4 @@
 import './table.css'
-import '../../assets/tableRPL.js'
 import { useEffect, useState } from 'react'
 
 const Table = () => {

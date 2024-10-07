@@ -1,20 +1,41 @@
 .blog {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	gap: 24px;
+	gap: 12px;
 	padding: 12px;
 	box-sizing: border-box;
-	padding-bottom: 64px;
+	padding-bottom: 78px;
+	text-align: start;
 }
 
-.blog__box {
+.blog__item {
+	display: flex;
+	flex-direction: column;
 	background-color: #070e13; /* Белый фон для блока */
 	border: 0.1px solid rgb(255, 255, 255, 0.5);
 	width: 100%;
+	gap: 12px;
 	max-width: 360px; /* Максимальная ширина для мобильных экранов */
 	padding: 15px;
 	box-sizing: border-box;
 	color: rgb(255, 255, 255, 0.9);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.blog__title {
+	font-size: 18px;
+}
+
+.blog__wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	color: gray;
+	font-size: 14px;
+}
+
+.blog__description {
+	display: flex;
 }

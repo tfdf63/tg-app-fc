@@ -2,40 +2,32 @@
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	height: 64px;
+	height: 4rem;
 	width: 100%;
 	display: flex;
-	flex-direction: column;
+	/* flex-direction: column; */
 	justify-content: center;
 	align-items: center;
-	padding: 10px 0 0 0;
 	background-color: #070e13;
 	border-top: 0.1px solid rgb(255, 255, 255, 0.5);
 }
 
 .header__logo {
 	width: 100%;
+	height: 100%;
 	max-width: 360px;
+	margin-top: 12px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	color: #fff;
-	font-size: 48px;
+	font-size: 36px;
 	font-weight: bold;
 }
 
 .header__home,
 .header__table,
-.header__blog {
+.header__blog,
+.header__tg {
 	color: rgb(178, 6, 28, 0.6);
-}
-
-.header__nav {
-	display: flex;
-	gap: 20px;
-}
-
-.header__nav a {
-	text-decoration: none;
-	color: #b2061c;
 }
