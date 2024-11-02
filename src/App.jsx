@@ -5,6 +5,8 @@ import Table from './components/Table/Table'
 import Header from './components/Header/Header'
 import Blog from './components/Blog/Blog'
 import SingleBlog from './components/SingleBlog/SingleBlog'
+import Register from './components/Register/Register'
+import Shop from './components/Shop/Shop'
 
 function App() {
 	return (
@@ -13,9 +15,11 @@ function App() {
 				<Header />
 				<Routes>
 					<Route path='/' element={<Calendar />} />
+					<Route path='/register' element={<Register />} />
 					<Route path='/table' element={<Table />} />
 					<Route path='/blog' element={<Blog />} />
 					<Route path='/blog/:id' element={<SingleBlog />} />
+					<Route path='/shop' element={<Shop />} />
 				</Routes>
 			</div>
 		</BrowserRouter>
