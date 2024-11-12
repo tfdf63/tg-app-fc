@@ -5,7 +5,10 @@ import Table from './components/Table/Table'
 import Header from './components/Header/Header'
 import Blog from './components/Blog/Blog'
 import SingleBlog from './components/SingleBlog/SingleBlog'
+<<<<<<< Updated upstream
 import Register from './components/Register/Register'
+=======
+>>>>>>> Stashed changes
 import Shop from './components/Shop/Shop'
 import Scan from './components/Scan/Scan'
 
