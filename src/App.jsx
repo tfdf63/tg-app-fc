@@ -7,6 +7,7 @@ import Blog from './components/Blog/Blog'
 import SingleBlog from './components/SingleBlog/SingleBlog'
 import Register from './components/Register/Register'
 import Shop from './components/Shop/Shop'
+import Scan from './components/Scan/Scan'
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 					<Route path='/blog' element={<Blog />} />
 					<Route path='/blog/:id' element={<SingleBlog />} />
 					<Route path='/shop' element={<Shop />} />
+					<Route path='/scan' element={<Scan />} />
 				</Routes>
 			</div>
 		</BrowserRouter>
